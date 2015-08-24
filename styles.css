@@ -251,7 +251,8 @@ a.button-small:active {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-  .navbar > a:focus{
+  .navbar > a:focus,
+  .navbar > a:hover{
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
@@ -265,7 +266,6 @@ a.button-small:active {
 
   .nav-links {
     display: none; 
-  
     position: absolute;
     right: 2px;
     top: 45px;
