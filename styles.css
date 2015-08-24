@@ -251,15 +251,15 @@ a.button-small:active {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-  .navbar > a:focus,
-  .navbar > a:hover{
+  .navbar > a:focus{
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
-  .navbar > a:focus + .nav-links{
+  .navbar > a:focus + .nav-links,
+  .navbar > a:hover + .nav-links{
     display: block;
   }
 
